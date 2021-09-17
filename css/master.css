@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+font-family: 'Acme', sans-serif;
+/* background-image: scr= "(./images/Flag.png)"; */
+}
+
+
+.nav-bar{
+
+}
+
+
+/* .container {
+  width: 95%;
+  margin: auto;
+  background-color: #F2F2F2;
+  padding: 1em;
+  height: 100vh;
+}    */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 12%;
+  margin: 1%;
+  text-align: center;
+}
+
+.column2 {
+  flex: 50%;
+  margin-top: .5%;
+  text-align: center;
+  background-color: gray;
+  border: 5px 5px solid black;
+}
+
+.image-hover {
+  hover:
+}
+
+h3{
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 5px black;
+}
+
+h2{
+  font-size: 24px;
+  color: black;
+}
+
+.round-image {
+  width: 50%;
+  text-align: left;
+  border-radius: 200px;
+  box-shadow: 5px 5px #232323;
+}
+
+.side-image {
+  width:100%;
+  box-shadow: 5px 5px #232323;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.side-image: hover{
+  opacity: .3;
+  filter: alpha(opacity=30);
+}
+
+.box {
+  text-align: center;
+  background-color: white;
+  border: 5px 5px solid black;
+  border-radius: 50px;
+}
+
+
+/* .big-col {
+  flex: 40%;
+  margin: 1%;
+}
+
+.menu-title {
+  text-align: center;
+  color: black;
+}   */
+
+.hero-image {
+   width:100%;
+  box-shadow: 5px 5px #232323;
+}
